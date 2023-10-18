@@ -5,7 +5,7 @@ import PangImage from '../assets/45.jpg';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 
-const Home = () => {
+const Home3 = () => {
  
   const navigate = useNavigate();
 
@@ -32,7 +32,7 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home3;
 
 const Wrapper = styled.div`
   height: 100vh;

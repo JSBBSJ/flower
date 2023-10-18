@@ -7,7 +7,7 @@ import { ResultData } from '../assets/data/resultdata';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 
 
-const Result = () => {
+const Result3 = () => {
 
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -39,7 +39,7 @@ const Result = () => {
   )
 }
 
-export default Result;
+export default Result3;
 
 const Wrapper = styled.div`
   height: 100vh;
