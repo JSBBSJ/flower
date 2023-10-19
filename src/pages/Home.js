@@ -1,11 +1,11 @@
 import React from 'react';
 // css-in-js 
 import styled from 'styled-components';
-import PangImage from '../assets/45.jpg';
+import PangImage from '../assets/123123.jpg';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 
-const Home3 = () => {
+const Home4 = () => {
  
   const navigate = useNavigate();
 
@@ -17,13 +17,13 @@ const Home3 = () => {
 
     return (
       <Wrapper>
-      <Header>여행지 판별기</Header>
+      <Header>환상의 궁합 꽃 판별기</Header>
       <Contents>
-        <Title>나에게 맞는 여행지는?</Title>
+        <Title>나에게 어울리는 꽃은?</Title>
         <LogoImage>
           <img src={PangImage} className="rounded-circle" width={350} height={350} />
         </LogoImage>
-        <Desc>MBTI를 기반으로 하는 나랑 잘맞는 여행지 찾기!</Desc>
+        <Desc>MBTI를 기반으로 하는 나에게 어울리는 꽃은 ? </Desc>
         <Button style={{ fontfamily: "12" }} onClick={handleClickButton}>
           테스트 시작하기
         </Button>
@@ -32,7 +32,7 @@ const Home3 = () => {
   )
 }
 
-export default Home3;
+export default Home4;
 
 const Wrapper = styled.div`
   height: 100vh;

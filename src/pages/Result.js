@@ -7,7 +7,7 @@ import { ResultData } from '../assets/data/resultdata';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 
 
-const Result3 = () => {
+const Result4 = () => {
 
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -23,13 +23,13 @@ const Result3 = () => {
 
   return (
     <Wrapper>
-      <Header>여행지 판별기</Header>
+     <Header>환상의 궁합 꽃 판별기</Header>
       <Contents>
         <Title>결과 보기</Title>
         <LogoImage>
           <img src={resultData.image} className="rounded-circle" width={350} height={350} />
         </LogoImage>
-        <Desc>당신의 추천 여행지는 {resultData.name}입니다.</Desc>
+        <Desc>회원님과 찰떡궁합인 꽃은 {resultData.name}입니다.</Desc>
           <Button style={{ fontFamily: "12", width: 170 }} onClick={() => navigate("/")}>
             테스트 다시하기
           </Button>
@@ -39,7 +39,7 @@ const Result3 = () => {
   )
 }
 
-export default Result3;
+export default Result4;
 
 const Wrapper = styled.div`
   height: 100vh;

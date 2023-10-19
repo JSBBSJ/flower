@@ -5,7 +5,7 @@ import { createSearchParams, useNavigate } from 'react-router-dom';
 import { QuestionData } from '../assets/data/questiondata';
 
 
-const Question3 = () => {
+const Question4 = () => {
   const [questionNo, setQuestionNo] = React.useState(0);
   const [totalScore, setTotalScore] = React.useState([
     { id: "EI", score: 0 },
@@ -57,7 +57,7 @@ const Question3 = () => {
   )
    }
 
-export default Question3;
+export default Question4;
 
 const Wrapper = styled.div`
   height: 100vh;
